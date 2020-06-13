@@ -2,7 +2,7 @@ import React,{useEffect} from 'react';
 import './App.css';
 import Header from './components/Header';
 import Home from './components/HomePage/Home';
-import Profile from './components/Profile';
+import Profile from './components/ProfilePage/Profile';
 import Upload from './components/UploadPage/Upload';
 import {BrowserRouter,Route} from 'react-router-dom';
 import {connect} from 'react-redux'
@@ -12,7 +12,7 @@ function App(props) {
         props.fetch_user()
     },[])
   return (
-    <Upload />
+    <Profile />
 
     // <BrowserRouter>
     //   <Header />
