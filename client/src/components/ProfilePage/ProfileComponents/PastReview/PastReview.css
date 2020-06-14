@@ -9,7 +9,7 @@
     margin-bottom: 30px;
 }
 
-.reviewCoverImage {
+#reviewCoverImage {
     border-radius: 17px;
     width : 6.7em;
     height: 10em;

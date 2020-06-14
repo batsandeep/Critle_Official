@@ -98,8 +98,11 @@ const Profile = (props)=>{
                     <div style={topMargin}>
                         <Row className="align-items-center" style={userProfileMargin}>
                             <Col style={center}>
-                                <img id="profilePic" src={require('./UserAssets/profilePic.jpg')} />
-                                <h1 id="profileName">Noctis Caelum</h1>
+                                <img id="uiop" src={require('./UserAssets/profilePic.jpg')} />
+                                <h1 id="profileName">Noctis77<span id="fredit"><a href="" id="freditMast">Edit</a></span></h1>
+
+
+                                <h4 id="profileRealName">Noctis Lucis Caelum</h4>
                                 <h4 id="profileMail">noctiscaelum@gmail.com</h4>
                                 <button className="critleButtonNew">Upload Artwork</button>
                             </Col>

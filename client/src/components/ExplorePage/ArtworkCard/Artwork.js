@@ -9,7 +9,7 @@ const artwork = () => {
             <div id="pastUploadCard" >
                     
                     <div className="containeR">
-                        <img src={require('./ReviewAssets/SamplePic.jpg')} className="imagE" />
+                        <img src={require('./ReviewAssets/SamplePic.jpg')} id="imagica" />
                         <div className="overlaY">
                             <div className="texT">
                                 Volition

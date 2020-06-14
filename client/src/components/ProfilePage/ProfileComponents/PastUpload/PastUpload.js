@@ -10,7 +10,7 @@ const upload = () => {
                     {/* <img src={require('./ReviewAssets/SamplePic.jpg')} className="coverImage" />
                     <h4 id="imageTitle">Volition</h4>   */}
                     <div className="containeR">
-                        <img src={require('./ReviewAssets/SamplePic.jpg')} className="imagE" />
+                        <img src={require('./ReviewAssets/SamplePic.jpg')} id="imagica" />
                         <div className="overlaY">
                             <div className="texT">
                                 Volition

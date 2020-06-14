@@ -17,7 +17,7 @@ function App(props) {
         props.fetch_user()
     },[])
   return (
-    <Edit />
+    <Profile />
 
     // <BrowserRouter>
     //   <Header />

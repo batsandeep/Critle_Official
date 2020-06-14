@@ -23,11 +23,11 @@
 
 }
 
-.imagE {
+#imagica {
   display: block;
   border-radius: 17px;
   width : 12em;
-    height: 18em;
+  height: 18em;
 }
 
 .overlaY {

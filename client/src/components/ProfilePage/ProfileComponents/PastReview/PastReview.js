@@ -16,7 +16,7 @@ const leftMar = {
         <div id="reviewDiv">
             <Row>
                 <Col xs={1}>
-                <img className="reviewCoverImage" src={require('./ReviewAssets2/SamplePic.jpg')}/>
+                <img id="reviewCoverImage" src={require('./ReviewAssets2/SamplePic.jpg')}/>
                 </Col>
                 <Col >
                     <div style={leftMar}>

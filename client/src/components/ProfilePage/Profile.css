@@ -1,29 +1,56 @@
-#profilePic {
+#uiop {
     width: 14em;
     height: 14em;
     border-radius: 50%;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 #profileName {
     font-family: Roboto;
     font-style: normal;
-    font-weight: 400;
-    font-size: 2em;
+    font-weight: 600;
+    font-size: 2.5rem;
     color: #000000;
+    margin-left: 30px;
+}
+
+#fredit {
+    font-size: 12px;
+    margin-left: 10px ;
+}
+
+#freditMast {
+    color: #000000;
+}
+#freditMast:hover {
+    color : rgba(0, 0, 0, 0.6);
+    text-decoration: none;
 }
 
 
 #profileMail {
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.2em;   
+    font-weight: 300;
+    font-size: 1.5rem;   
     color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
+    line-height: 10px;
+}
+
+#profileRealName {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;   
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+
 }
 
 .critleButtonNew {
-    margin-top : 1em;
+    margin-top : 1rem;
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
@@ -34,10 +61,10 @@
     background: #000000;
     border-radius: 50px;
     color: #FFFFFF;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
 }
 
 .critleButtonNew:hover {
@@ -58,7 +85,7 @@
 
 .pastUploadDiv {
     width : 85%;
-    height: 30em;
+    height: 30rem;
     margin:auto;
     /* padding-left: 50px;
     padding-right: 50px; */
@@ -72,7 +99,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight:400;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     line-height: 35px;
     text-align: left;
     padding-left: 1%;
