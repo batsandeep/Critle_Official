@@ -5,7 +5,8 @@ import Home from './components/HomePage/Home';
 import Profile from './components/ProfilePage/Profile';
 import Explore from './components/ExplorePage/Explore';
 import Upload from './components/UploadPage/Upload';
-import Details from './components/DetailsPage/Details'
+import Details from './components/ArtworkDetailsPage/Details'
+import WriteReview from './components/WriteReviewPage/WriteReview'
 
 import {BrowserRouter,Route} from 'react-router-dom';
 import {connect} from 'react-redux'
@@ -15,7 +16,7 @@ function App(props) {
         props.fetch_user()
     },[])
   return (
-    <Details />
+    <WriteReview />
 
     // <BrowserRouter>
     //   <Header />
