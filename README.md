@@ -1,4 +1,4 @@
-# # Critle Web App
+## Critle Web App
 
 Critical review of an artwork allows people to express their opinions and allow others to better understand and appreciate art. This platform will allow professional critics and enthusiasts alike to review various works of art, including books, movies, paintings and songs.
 
